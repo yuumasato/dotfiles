@@ -227,6 +227,9 @@ bindsym $mod+r mode "resize"
 #    }
 #}
 
+# Title bar colors
+client.focused 994c51 663336 ffffff
+
 # Swaybar
 bar {
     swaybar_command waybar
