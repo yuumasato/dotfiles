@@ -70,6 +70,7 @@ bindswitch --reload --locked lid:off output $latptop enable
 # You can get the names of your inputs by running: swaymsg -t get_inputs
 # Read `man 5 sway-input` for more information about this section.
 
+input * xkb_options compose:ralt
 ### Key bindings
 #
 # Basics:
