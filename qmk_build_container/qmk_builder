@@ -1,0 +1,4 @@
+FROM fedora:28
+
+RUN true \
+	&& dnf install -y avr-gcc avr-libc make
